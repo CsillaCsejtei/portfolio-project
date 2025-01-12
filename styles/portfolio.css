@@ -29,7 +29,7 @@ h2 {
   font-size: 64px;
 }
 
-h4{
+h3 {
   font-size: 48px;
 }
 
@@ -41,7 +41,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -59,8 +59,9 @@ p {
 }
 
 .content-container {
-  padding: 40x 144px;
+  padding: 60px 20px;
 }
+
 .content h1 {
   font-size: 64px;
   line-height: 80px;
@@ -143,31 +144,31 @@ nav li.active a {
   color: var(--branding-color);
 }
 
-footer{
+footer {
   margin: 60px 0;
 }
 
-footer .contact-box{
+footer .contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10px;
 }
 
-footer .contact-box p{
-  margin:0;
+footer .contact-box p {
+  margin: 0;
 }
 
-footer .email-link{
+footer .email-link {
   text-decoration: none;
-  color:black;
-  font-size:24px;
+  color: black;
+  font-size: 24px;
 }
 
-footer .email-link:hover{
+footer .email-link:hover {
   color: var(--branding-color);
 }
 
-footer .social-links a{
+footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
   background: var(--secondary-color);
@@ -177,7 +178,7 @@ footer .social-links a{
   transition: all 100ms ease-in-out;
 }
 
-footer .social-links a:hover{
+footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
 }
@@ -191,12 +192,8 @@ footer .social-links a:hover{
     font-size: 44px;
   }
 
-  h4{
+  h3 {
     font-size: 26px;
-  }
-  
-  .hero {
-    padding: 80px 20px;
   }
 
   .content {
@@ -209,11 +206,11 @@ footer .social-links a:hover{
     text-align: center;
   }
 
-  footer .contact-box{
+  footer .contact-box {
     padding: 30px;
   }
 
-  nav a{
+  nav a {
     font-size: 14px;
   }
 }
