@@ -59,7 +59,7 @@ p {
 }
 
 .content-container {
-  padding: 60px 20px;
+  padding: 20px;
 }
 
 .content h1 {
@@ -142,6 +142,10 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
+}
+
+.profile{
+  max-width: 500px;
 }
 
 footer {
