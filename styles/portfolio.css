@@ -37,6 +37,7 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  text-align: justify;
 }
 .hero {
   background: var(--secondary-color);
@@ -110,15 +111,9 @@ content {
   padding: 120px 60px;
 }
 
-.logo {
-  max-width: 150px;
-}
-.logo-small {
-  max-width: 40px;
-}
-
 nav {
   padding: 20px 0;
+  font-size: 24px;
 }
 
 nav ul {
